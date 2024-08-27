@@ -1,0 +1,13 @@
+language: java
+
+sudo: false
+
+after_script:
+  - bash <(curl -s https://codecov.io/bash)
+
+notifications:
+  email:
+    recipients:
+      - oxqq@ya.ru
+    on_success: never
+    on_failure: always
