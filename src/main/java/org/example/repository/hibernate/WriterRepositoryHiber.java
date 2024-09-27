@@ -4,8 +4,8 @@ import org.example.model.Writer;
 import org.example.utils.hiber.HibernateWorker;
 import org.example.repository.WriterRepository;
 import org.hibernate.Session;
+import org.hibernate.query.Query;
 
-import javax.persistence.Query;
 import java.util.Collections;
 import java.util.List;
 
