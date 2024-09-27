@@ -26,7 +26,7 @@ public class WriterController {
     public void refresh() {
         String action;
         while (working) {
-              writerViev.show(writerService.getAll());
+            writerViev.show(writerService.gatAll());
             writerViev.show("виберіть дію із списку");
             action = scanner.nextLine();
             switch (action) {
